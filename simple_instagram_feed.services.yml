@@ -1,4 +1,4 @@
 services:
   simple_instagram_feed.library:
     class: Drupal\simple_instagram_feed\Services\SimpleInstagramFeedLibrary
-    arguments: ['@app.root']
+    arguments: ['%app.root%']

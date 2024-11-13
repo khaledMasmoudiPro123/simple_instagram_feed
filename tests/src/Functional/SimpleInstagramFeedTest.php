@@ -45,7 +45,7 @@ class SimpleInstagramFeedTest extends BrowserTestBase {
   /**
    * Tests Simple Instagram Feed block.
    */
-  public function testsSimpleInstagramFeedBlock() {
+  public function testsSimpleInstagramFeedBlock(): void {
     $this->drupalLogin($this->adminUser);
 
     // Block is listed in site block library.

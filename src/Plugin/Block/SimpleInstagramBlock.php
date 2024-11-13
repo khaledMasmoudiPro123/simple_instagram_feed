@@ -208,7 +208,7 @@ class SimpleInstagramBlock extends BlockBase implements ContainerFactoryPluginIn
   /**
    * {@inheritdoc}
    */
-  public function blockSubmit($form, FormStateInterface $form_state) {
+  public function blockSubmit($form, FormStateInterface $form_state): void {
     parent::blockSubmit($form, $form_state);
     $values = $form_state->getValues();
     $this->configuration['simple_instagram_username'] = $values['simple_instagram_username'];

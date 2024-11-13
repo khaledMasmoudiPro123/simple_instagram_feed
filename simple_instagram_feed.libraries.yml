@@ -8,6 +8,5 @@ simple_instagram_block:
     js/simple_instagram_feed.js: {}
   dependencies:
     - core/drupal
-    - core/jquery
-    - core/jquery.once
+    - core/once
     - core/drupalSettings
